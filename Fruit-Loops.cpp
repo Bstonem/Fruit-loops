@@ -6,7 +6,7 @@ int main(){
             //This block will list out a limit of 5 fruits.
     string fruits[5]= {"Apple", "Banana", "Cherry", "Grape", "Orange"};
         cout << "Here are the fruits in the list." << endl;
-             //Below is limit-based loop for list of fruits.
+            //Below is limit-based loop for list of fruits.
             for (string fruit : fruits){
                 cout << fruit << '\n';
         }
