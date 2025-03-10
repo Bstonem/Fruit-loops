@@ -16,12 +16,15 @@ int main(){
         string bonusFruit1, bonusFruit2;
         
         cout << "Bonus if you can think of two more fruits!" << endl;
+        
         cout << "Fruit 1? ";
         cin >> bonusFruit1, '\n';
         cout << "Fruit 2? ";
         cin >> bonusFruit2, '\n';
+        
         cout << "Great! Here is the updated list of fruits!" << endl;
-            //New limit-based loop including the 2 bonus fruits entered by user.
+        
+        //New limit-based loop including the 2 bonus fruits entered by user.
         string updatedFruits[7]= {"Apple", "Banana", "Cherry", "Grape", "Orange", bonusFruit1, bonusFruit2};
         for (string fruit : updatedFruits){
             cout << fruit << '\n';
